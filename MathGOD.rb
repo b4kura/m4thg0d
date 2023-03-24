@@ -8,7 +8,6 @@ class MathGOD
   include Display
 
   def show_menus
-    @sair = false
     mostrar_menu_inicial
     exit if gets.chomp.to_i == 2
     system('clear')
